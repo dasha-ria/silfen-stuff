@@ -1,0 +1,70 @@
+* {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.form {
+  width: 500px;
+  margin-left: 50px;
+}
+
+input,
+#country,
+textarea {
+  padding: 10px 10px;
+  border: 1px black solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.individual-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.submitbutton {
+  background-color: black;
+  color: white;
+  border: none;
+  text-align: center;
+  width: 250px;
+  height: 40px;
+  margin-left: 252px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+select {
+  background: none;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  padding-right: 20px;
+  position: relative;
+}
+
+select {
+  background-image: url("img/Component\ 1.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+}
+
+.address-category,
+.contact-category {
+  margin-top: 50px;
+}
+
+input {
+  margin-top: 5px;
+}
