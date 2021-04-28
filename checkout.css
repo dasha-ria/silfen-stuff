@@ -3,6 +3,10 @@
   font-size: 16px;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
   font-weight: 400;
   font-size: 40px;
@@ -12,7 +16,7 @@ h1 {
 }
 
 .form {
-  width: 500px;
+  width: 600px;
   margin-left: 50px;
 }
 
@@ -39,7 +43,7 @@ textarea {
   text-align: center;
   width: 250px;
   height: 40px;
-  margin-left: 252px;
+  margin-left: 350px;
   margin-top: 30px;
   font-size: 14px;
 }
@@ -56,7 +60,7 @@ select {
 select {
   background-image: url("img/Component\ 1.svg");
   background-repeat: no-repeat, repeat;
-  background-position: right 0.7em top 50%, 0 0;
+  background-position: right 1.5em top 50%, 0 0;
   background-size: 0.65em auto, 100%;
 }
 
@@ -93,7 +97,7 @@ footer {
 }
 
 .footer-category {
-  margin-bottom: 80px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   margin-right: 100px;
@@ -119,6 +123,7 @@ footer {
 .footer-pic {
   display: flex;
   flex-direction: row;
+  margin-right: -30px;
 }
 
 .footer-social {
@@ -131,4 +136,8 @@ footer {
   height: 20px;
   width: auto;
   margin-right: 15px;
+}
+
+.address-footer {
+  text-align: center;
 }
