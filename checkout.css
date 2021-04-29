@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  padding-left: 50px;
 }
 
 h1 {
@@ -15,9 +16,9 @@ h1 {
   margin-bottom: 50px;
 }
 
-.form {
+.form-shipping {
   width: 600px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 input,
@@ -55,6 +56,7 @@ select {
   appearance: none;
   padding-right: 20px;
   position: relative;
+  margin-top: 5px;
 }
 
 select {
@@ -78,6 +80,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: -50px;
 }
 
 .footer-line {
@@ -140,4 +143,54 @@ footer {
 
 .address-footer {
   text-align: center;
+}
+
+.payment-div {
+  display: flex;
+  /* margin-left: 50px; */
+}
+
+.active-payment {
+  border: 3px solid #acd5b5;
+  border-radius: 5px;
+  height: 150px;
+  width: 300px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inactive-payment {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  height: 154px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-choice {
+  height: 70px;
+  width: auto;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #7f7f7f;
+}
+
+.form-billing {
+  width: 400px;
+}
+
+.city-form {
+  /* width: 150px; */
+  margin-right: 20px;
+}
+
+.city-group {
+  display: flex;
 }

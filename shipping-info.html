@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Shipping Information</title>
     <link rel="stylesheet" href="checkout.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -15,7 +15,7 @@
   <body>
     <h1>SHIPPING INFORMATION</h1>
 
-    <form class="form" name="checkout-form">
+    <form class="form-shipping" name="checkout-form">
       <div class="individual-form">
         <label for="first-name">FIRST NAME</label>
         <input
@@ -371,6 +371,17 @@
           type="text"
           placeholder="2. tv."
         />
+      </div>
+
+      <div class="city-group">
+        <div class="city-form">
+          <label for="address">CITY</label>
+          <input id="city" name="city" type="text" placeholder="Copenhagen" />
+        </div>
+        <div class="city-form">
+          <label for="address">POSTCODE</label>
+          <input id="postcode" name="postcode" type="text" placeholder="2200" />
+        </div>
       </div>
 
       <div class="individual-form contact-category">
