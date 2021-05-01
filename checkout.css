@@ -286,7 +286,10 @@ h3 {
   width: 100vw;
   background-color: #f5f5f5;
   display: flex;
-  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-right: 100px;
+  box-sizing: border-box;
 }
 
 .payment-cost {
@@ -298,7 +301,6 @@ h3 {
 .payment-total-flex {
   display: flex;
   justify-content: space-between;
-  margin-right: 100px;
 }
 
 .payment-total-flex-parent {
@@ -307,7 +309,18 @@ h3 {
 }
 
 .payment-total-line {
-  width: 400px;
+  width: 500px;
   height: 1px;
   background-color: #aed5b2;
+}
+
+.complete-button {
+  background-color: black;
+  color: white;
+  border: none;
+  text-align: center;
+  width: 250px;
+  height: 40px;
+  margin-top: 30px;
+  font-size: 14px;
 }
