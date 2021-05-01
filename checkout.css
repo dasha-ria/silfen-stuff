@@ -180,17 +180,134 @@ h3 {
   font-weight: 400;
   font-size: 20px;
   color: #7f7f7f;
+  margin-top: 50px;
 }
 
 .form-billing {
   width: 400px;
+  display: flex;
+  flex-direction: column;
 }
 
 .city-form {
   /* width: 150px; */
   margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .city-group {
   display: flex;
+}
+
+/* .page-wrap {
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.visa-payment {
+  height: 20px;
+  width: auto;
+}
+
+.visa-wrap {
+  border: 1px solid black;
+  height: 40px;
+  width: 100px;
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.card-wrap {
+  display: flex;
+}
+
+.form-billing-right {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-date {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#expiry-month,
+#expiry-year {
+  width: 200px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#expiry-month {
+  margin-right: 20px;
+}
+
+.formdate-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.cvv-form {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.payment-wrap {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  gap: 150px;
+}
+
+.payment-total-div {
+  margin-top: 50px;
+  margin-left: -50px;
+  height: 400px;
+  width: 100vw;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.payment-cost {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.payment-total-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+
+.payment-total-flex-parent {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.payment-total-line {
+  width: 400px;
+  height: 1px;
+  background-color: #aed5b2;
 }
