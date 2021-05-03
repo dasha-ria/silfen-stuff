@@ -6,6 +6,7 @@
 body {
   margin: 0;
   padding-left: 50px;
+  padding-right: -50px;
 }
 
 h1 {
@@ -109,15 +110,14 @@ footer {
 .category-flex {
   display: flex;
   justify-content: center;
-  margin-right: -100px;
   flex-wrap: wrap;
+  gap: 60px;
 }
 
 .footer-category {
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
-  margin-right: 100px;
 }
 
 .footer-title {
@@ -140,19 +140,18 @@ footer {
 .footer-pic {
   display: flex;
   flex-direction: row;
-  margin-right: -30px;
+  gap: 15p x;
 }
 
 .footer-social {
-  width: 50px;
+  display: flex;
+  width: 30px;
   height: auto;
-  margin-right: 15px;
 }
 
 .footer-pay {
   height: 20px;
   width: auto;
-  margin-right: 15px;
 }
 
 .address-footer {
@@ -161,7 +160,6 @@ footer {
 
 .payment-div {
   display: flex;
-  /* margin-left: 50px; */
 }
 
 .active-payment {
