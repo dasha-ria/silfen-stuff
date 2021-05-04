@@ -111,7 +111,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 60px;
+  gap: 80px;
 }
 
 .footer-category {
