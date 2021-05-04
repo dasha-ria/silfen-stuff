@@ -494,5 +494,27 @@
       Phone: +45 20 51 89 23 l E-mail: info@silfenstudio.com <br />
       © 2021 Silfen CVR: 40912320. All rights reserved.
     </p>
-  </footer></main>
+  </footer>
+
+  <script>
+    /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+if (prevScrollpos > currentScrollPos) {
+document.getElementById("navbar").style.top = "0";
+} else {
+document.getElementById("navbar").style.top = "-250px";
+}
+prevScrollpos = currentScrollPos;
+
+if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 150) {
+document.getElementById("navigation").className = "blurred";
+} else {
+document.getElementById("navigation").className = "";
+}
+}
+  </script>
+
+</main>
 </html>
